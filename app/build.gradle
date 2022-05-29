@@ -24,6 +24,9 @@ android {
             keyPassword keystoreProperties['keyPassword']
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 
     buildTypes {
         release {
